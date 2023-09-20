@@ -6,12 +6,11 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    
+    font-family: "Poppins", sans-serif;
 
 }
 
 body {
-    font-family: "Poppins", sans-serif;
     overflow: auto;
     background-color: #0d101b;
     
@@ -120,7 +119,7 @@ button:hover{
 
 .container-text-2 {
     padding: 270px 0 0 100px;
-    
+    display: flex;
 }
 
 .about h1{
@@ -142,7 +141,7 @@ button:hover{
 
 .container-text-3 {
     padding: 100px 0 0 100px;
-    
+    display: flex;
 }
 
 .projects h1{
@@ -160,52 +159,4 @@ button:hover{
     font-size: 14px;
     font-weight: 300;
     margin-top: 35px;
-}
-
-
-/* Mídia query para dispositivos com largura máxima de 768px (exemplo: tablets e smartphones) */
-@media screen and (max-width: 768px) {
-
-    body {
-        font-size: 14px; /* Reduza o tamanho da fonte para dispositivos menores */
-    }
-
-    .background {
-        height: 55vh;
-    }
-
-    .container-text {
-        padding: 80px 20px; /* Reduza o espaçamento superior da seção de texto */
-    }
-
-    .text h1 {
-        font-size: 24px; /* Reduza o tamanho do título principal */
-    }
-
-    .text p {
-        font-size: 12px; /* Reduza o tamanho do texto do parágrafo */
-    }
-
-    .menu {
-        flex-direction: column; /* Alinhe os links verticalmente */
-        gap: 1rem; /* Reduza o espaçamento entre os links do menu */
-        padding-left: 0; /* Remova o recuo esquerdo do menu */
-    }
-
-    .menu a {
-        font-size: 12px; /* Reduza o tamanho da fonte dos links do menu */
-    }
-
-    button {
-        font-size: 12px; /* Reduza o tamanho da fonte do botão */
-        width: 100%; /* Faça o botão ocupar a largura total */
-    }
-
-    .container-text-2,
-    .container-text-3 {
-        padding: 80px 20px; /* Reduza o espaçamento superior das outras seções */
-        display: block; /* Defina as seções para exibição de bloco para evitar problemas de layout */
-    }
-
-    /* Qualquer outra alteração de estilo específica para dispositivos móveis pode ser adicionada aqui */
 }
