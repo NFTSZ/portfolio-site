@@ -7,8 +7,8 @@ Bem-vindo ao meu projeto de portfólio pessoal. Este repositório contém inform
 - [Visão Geral](#visão-geral)
 - [Tecnologias Usadas](#tecnologias-usadas)
 - [Como Usar](#como-usar)
-- [Projetos](#projetos)
-- [Licença](#licença)
+<!-- - [Projetos](#projetos)
+- [Licença](#licença) -->
 
 ## Visão Geral
 
